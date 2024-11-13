@@ -19,13 +19,28 @@ class DefaultFirebaseOptions {
    }
    // ignore: missing_enum_constant_in_switch
    switch (defaultTargetPlatform) {
-     case TargetPlatform.android:
-       return android;
-     case TargetPlatform.iOS:
-       return ios;
-     case TargetPlatform.macOS:
-       return macos;
-   }
+  case TargetPlatform.android:
+    // Código para Android
+    break;
+  case TargetPlatform.iOS:
+    // Código para iOS
+    break;
+  case TargetPlatform.macOS:
+    // Código para macOS
+    break;
+  case TargetPlatform.windows:
+    // Código para Windows
+    break;
+  case TargetPlatform.linux:
+    // Código para Linux
+    break;
+  case TargetPlatform.fuchsia:
+    // Código para Fuchsia
+    break;
+  default:
+    // Código por defecto para cualquier otra plataforma
+    break;
+}
 
    throw UnsupportedError(
      'DefaultFirebaseOptions are not supported for this platform.',
